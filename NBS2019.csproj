@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-NBS2019-279FC3E4-E3EE-4695-AE83-A98A0289C98B</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Models\EconomyModels\DataModels\" />
+    <Folder Include="Models\EconomyModels\ViewModels\" />
+    <Folder Include="Models\PeopleModels\DataModels\" />
+    <Folder Include="Models\PeopleModels\ViewModels\" />
+    <Folder Include="Models\ProductModels\DataModels\" />
+    <Folder Include="Models\ProductModels\ViewModels\" />
+  </ItemGroup>
+
+</Project>
